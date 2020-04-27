@@ -6,7 +6,7 @@ const App = (props) => {
 	const [selected, setSelected] = useState(0)
 	const [points, setPoints] = useState(initialPoints)
 	const vote = () => {
-		const copy = {...points}
+		const copy = [...points]
 		copy[selected] = copy[selected] + 1
 		setPoints(copy)
 	}
