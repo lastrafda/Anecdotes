@@ -1,0 +1,14 @@
+html, body, #root, #root>div {
+	height: 100%;
+}
+
+.main-container {
+	min-height: -o-calc(100% - 80px); /* opera */
+	min-height: -webkit-calc(100% - 80px); /* google; safari */
+	min-height: -moz-calc(100% - 80px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center
+}
