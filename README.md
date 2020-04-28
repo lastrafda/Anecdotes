@@ -8,7 +8,6 @@ un "ranking" que se actualiza dependiendo de los votos, just for fun.
 
 ## Live Demo
 [https://joself-anecdotes.netlify.app/](https://joself-anecdotes.netlify.app/)
-In the project directory, you can run:
 
 ## Levantar el proyecto localmente
 
@@ -20,9 +19,3 @@ Esto ejecutará la aplicación en localhost
 Abre [http://localhost:3000](http://localhost:3000) para verla en el navegador
 
 La página se recargará si haces cambios.
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
